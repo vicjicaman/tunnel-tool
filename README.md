@@ -177,7 +177,7 @@ Here is a list of some useful scenarios for services forward that we use:
 
 * Easy bulk scripts for access and control IOT devices.
 * Share a single env of the services from multiple team members, especially useful for integration test.
-* Kubernetes development based on forward services. (more details (here)[https://repoflow.com/blog/fullstack-dev/eWRhpR1.html])
+* Kubernetes development based on forward services. (more details [here](https://repoflow.com/blog/fullstack-dev/eWRhpR1.html))
 * Dedicated tunnels to sync a development docker registry across nodes and remote developers.
 * Inject local diagnostic patched or debugger attached services to integration test envs.
 * Sharing services with remote developers out of the office or private show case to customers
