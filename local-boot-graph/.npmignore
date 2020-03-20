@@ -1,0 +1,6 @@
+src
+pkg
+static
+webpack.*
+.babelrc
+.env

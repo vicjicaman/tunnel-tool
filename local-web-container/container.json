@@ -1,0 +1,9 @@
+{
+  "name": "repoflow/tunnel-local-web-container",
+  "version": "1.70.8-initial-client-prod",
+  "source": {
+    "type": "npm",
+    "fullname": "@nebulario/tunnel-local-web",
+    "version": "1.70.8-initial-client-prod"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "@nebulario/tunnel-local-boot-graph",
+  "version": "1.70.17-initial-client-prod",
+  "description": "GraphQL for local bootstrap",
+  "main": "dist/index.js",
+  "repository": "github.com:vicjicaman/tunnel-local-boot-graph.git",
+  "author": "Victor Jimenez <vic@repoflow.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "@babel/runtime": "^7.6.0",
+    "@babel/runtime-corejs3": "^7.6.0",
+    "@nebulario/tunnel-logger": "1.70.0-master",
+    "@nebulario/tunnel-utils": "1.70.0-master",
+    "axios": "^0.19.0",
+    "child-process-promise": "^2.2.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.2.0",
+    "graphql-iso-date": "^3.6.1",
+    "graphql-request": "^1.8.2",
+    "graphql-tools": "^4.0.4",
+    "graphql-tools-types": "^1.2.1",
+    "lodash": "^4.17.15",
+    "tree-kill": "^1.2.1",
+    "uuid": "^3.3.3",
+    "validator": "^12.2.0",
+    "yamljs": "^0.3.0"
+  },
+  "scripts": {
+    "clean": "rm -Rf ./dist*",
+    "start:prod": "NODE_ENV=\"production\" node ./dist/index.js",
+    "start:dev": "NODE_ENV=\"development\" nodemon ./dist/index.js",
+    "build:prod": "yarn clean && webpack --config webpack.config.js --mode=production ",
+    "build:dev": "yarn clean && webpack --config webpack.config.js --mode=development ",
+    "build:watch:dev": "yarn build:dev --watch",
+    "build:watch:prod": "yarn build:prod --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-transform-runtime": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "nodemon": "^1.19.2",
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
