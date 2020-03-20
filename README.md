@@ -8,7 +8,9 @@ This dashboard is useful for developers without experience with SSH tunnels that
 
 The goal of this tool is to save time and help a team of remote developers share their services easily with other team members, IOT devices, Kubernetes cluster or integration test environments in a secure and intuitive way.
 
-You can see the tool in action is the next [video](https://repoflow.com/blog/tunnels-tool/m/metrics-graph.mp4)
+You can see the tool in action is the next: [video](https://repoflow.com/blog/tunnels-tool/m/metrics-graph.mp4)
+Another demo video: [video](https://repoflow.com/blog/tunnels-tool/m/ingress.mp4)
+
 
 # Features
 
