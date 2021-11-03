@@ -58,6 +58,6 @@
     "reactstrap": "^8.0.1",
     "redux": "^4.0.4",
     "socket.io-client": "^2.3.0",
-    "validator": "^12.0.0"
+    "validator": "^13.7.0"
   }
 }
