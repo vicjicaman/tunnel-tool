@@ -19,7 +19,7 @@
     "graphql-iso-date": "^3.6.1",
     "graphql-tools": "^4.0.4",
     "graphql-tools-types": "^1.2.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.15",
     "tree-kill": "^1.2.1",
     "yamljs": "^0.3.0"
